@@ -1,4 +1,4 @@
-package com.company.Math;
+package com.company;
 
 public class CircleTwo {
 

@@ -1,4 +1,4 @@
-package com.company.Math;
+package com.company;
 
 import com.company.Circle;
 
