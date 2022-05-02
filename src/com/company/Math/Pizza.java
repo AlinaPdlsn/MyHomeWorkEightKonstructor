@@ -2,25 +2,18 @@ package com.company.Math;
 
 import com.company.Circle;
 
-public class Pizza {
+public class Pizza extends CircleTwo {
     double cost;
     String name;
     String composition;
-    CircleTwo basis;
 
-    /**
-     *
-     * @param name
-     * @param composition
-     * @param cost
-     * @param diameter
-     */
-    public Pizza(String name, String composition, double cost, double diameter){
+    public Pizza(String name, String composition, double cost, double radius) {
+        super(radius);
         this.name = name;
         this.composition = composition;
         this.cost = cost;
-        double radius = diameter / 2;
-        this.basis = new CircleTwo(radius);
+
+        System.out.println(radius);
     }
 
 }
