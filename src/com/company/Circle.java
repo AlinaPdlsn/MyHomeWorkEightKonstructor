@@ -8,12 +8,6 @@ public class Circle {
     double lenght;
     double square;
 
-    /**
-     *
-     * @param color
-     * @param radius
-     */
-
     public Circle(String color, int radius) {
         this.color = color;
         this.radius = radius;

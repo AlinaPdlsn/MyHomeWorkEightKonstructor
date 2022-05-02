@@ -1,7 +1,7 @@
 package com.company.Math;
 
 public class Pizzeria {
-    public static void main() {
+    public void makePizza() {
         Pizza[] pizzeria = new Pizza[5];
         pizzeria[0] = new Pizza("Te la diamo calda", "", 0, 1);
         pizzeria[1] = new Pizza("Pazzi per la pizza", "", 0, 1);
